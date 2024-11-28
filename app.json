@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "CoronCityApp",
+    "slug": "CoronCityApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/coron.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/coron.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/coron.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cansancio.CoronCityApp"
+    },
+    "web": {
+      "favicon": "./assets/coron.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "214723f5-96ef-4322-a83c-8d74d38f8eed"
+      }
+    }
+  }
+}
