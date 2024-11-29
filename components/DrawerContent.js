@@ -5,26 +5,32 @@ import { Avatar, Text } from 'react-native-paper';
 
 export default function DrawerContent(props) {
   return (
-    <DrawerContentScrollView {...props}>
+    <DrawerContentScrollView style={styles.drawer} {...props}>
       <View style={styles.header}>
-        <Avatar.Image
-          source={require('../assets/coron.jpg')}
+        <Avatar.Image 
+          source={require('../assets/cityOfDigosLogo.png')}
           size={80}
         />
-        <Text style={styles.title}>City of Coron</Text>
+        <Text style={styles.title}>Digos City Ph.</Text>
       </View>
       <DrawerItem
         label="Home"
         onPress={() => props.navigation.navigate('Home')}
+      />
+
+<DrawerItem
+        label="History"
+        onPress={() => props.navigation.navigate('History')}
       />
       <DrawerItem
         label="Tourist Spots"
         onPress={() => props.navigation.navigate('Tourist Spots')}
       />
       <DrawerItem
-        label="History"
-        onPress={() => props.navigation.navigate('History')}
+        label="Culture"
+        onPress={() => props.navigation.navigate('Culture')}
       />
+      
       <DrawerItem
         label="About"
         onPress={() => props.navigation.navigate('About')}
@@ -32,7 +38,7 @@ export default function DrawerContent(props) {
       {/* Add more navigation items here */}
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>© 2024 Marilyn Cansancio</Text>
+        <Text style={styles.footerText}>© 2024 | Tribunalo Hera Jane.</Text>
       </View>
 
     </DrawerContentScrollView>
@@ -40,21 +46,26 @@ export default function DrawerContent(props) {
 }
 
 const styles = StyleSheet.create({
+  drawer:{
+    backgroundColor:'white',
+  },
   header: {
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#f4f4f4',
+    backgroundColor: 'green',
   },
   title: {
     marginTop: 10,
     fontSize: 16,
     fontWeight: 'bold',
+    color:'white',
+    
   },
   footer: {
     padding: 10,
     
-    backgroundColor: '#f1f1f1', // Light background color for the footer
-    marginTop: '630', // Push the footer to the bottom
+    
+    marginTop: 230, // Push the footer to the bottom
     alignItems: 'center', // Center the text
     backgroundColor:"white",
     
