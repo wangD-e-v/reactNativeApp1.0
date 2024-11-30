@@ -8,7 +8,7 @@ export default function DrawerContent(props) {
     <DrawerContentScrollView style={styles.drawer} {...props}>
       <View style={styles.header}>
         <Avatar.Image 
-          source={require('../assets/cityOfDigosLogo.png')}
+          source={require('../assets/digoslogo.png')}
           size={80}
         />
         <Text style={styles.title}>Digos City Ph.</Text>

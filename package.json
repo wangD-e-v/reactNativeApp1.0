@@ -14,6 +14,7 @@
     "@react-navigation/drawer": "^7.0.13",
     "@react-navigation/native": "^7.0.8",
     "expo": "~52.0.11",
+    "expo-image": "~2.0.2",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -33,6 +34,14 @@
   },
   "private": true,
   "keywords": [],
-  "author": "",
-  "description": ""
+  "author": "Joshua Fernandez Anora",
+  "description": "project101",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangD-e-v/reactNativeApp1.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangD-e-v/reactNativeApp1.0/issues"
+  },
+  "homepage": "https://github.com/wangD-e-v/reactNativeApp1.0#readme"
 }

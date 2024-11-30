@@ -7,7 +7,7 @@ export default function AboutScreen() {
     <View style={styles.container}>
       {/* Circular Logo */}
       <Image
-        source={require('../assets/cityOfDigosLogo.png')} // Replace with your logo path
+        source={require('../assets/digoslogo.png')} // Replace with your logo path
         style={styles.logo}
       />
 
