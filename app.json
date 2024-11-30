@@ -9,8 +9,7 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/cityOfDigosLogo.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "contain"
     },
     "ios": {
       "supportsTablet": true
@@ -20,14 +19,14 @@
         "foregroundImage": "./assets/cityOfDigosLogo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.cansancio.CoronCityApp"
+      "package": "com.hera.digoscityph"
     },
     "web": {
       "favicon": "./assets/cityOfDigosLogo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "214723f5-96ef-4322-a83c-8d74d38f8eed"
+        "projectId": "329515f0-e9bd-4428-aa92-1b6cae70aee5"
       }
     }
   }

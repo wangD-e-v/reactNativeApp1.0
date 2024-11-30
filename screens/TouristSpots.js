@@ -23,7 +23,7 @@ export default function TouristSpots() {
 
 
         <Image
-          source={require('../assets/edennaturepark.jpg')} // Replace with your image path
+          source={require('../assets/eden.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Eden Nature Park</Text>
@@ -35,7 +35,7 @@ export default function TouristSpots() {
       {/* Tourist Spot 2 */}
       <View style={styles.spot}>
         <Image
-          source={require('../assets/dawis-beach.jpg')} // Replace with your image path
+          source={require('../assets/dawisbeach.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Dawis Beach</Text>
@@ -58,7 +58,7 @@ export default function TouristSpots() {
 
       <View style={styles.spot}>
         <Image
-          source={require('../assets/tanduyafalls.jpg')} // Replace with your image path
+          source={require('../assets/tudayafalls.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Tudaya falls</Text>
@@ -97,7 +97,7 @@ export default function TouristSpots() {
 
       <View style={styles.spot}>
         <Image
-          source={require('../assets/mt.apo.jpg')} // Replace with your image path
+          source={require('../assets/mtapo.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Mt. Apo</Text>
@@ -110,7 +110,7 @@ export default function TouristSpots() {
 
       <View style={styles.spot}>
         <Image
-          source={require('../assets/tribu.jpg')} // Replace with your image path
+          source={require('../assets/tibolovillage.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Tibolo Cultural Village</Text>
