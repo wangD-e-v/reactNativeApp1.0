@@ -4,11 +4,11 @@
     "slug": "DigosCityPh",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/cityOfDigosLogo.png",
+    "icon": "./assets/digoslogo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/cityOfDigosLogo.png",
+      "image": "./assets/digoslogo.png",
       "resizeMode": "contain"
     },
     "ios": {
@@ -16,17 +16,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/cityOfDigosLogo.png",
+        "foregroundImage": "./assets/digoslogo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.hera.digoscityph"
     },
     "web": {
-      "favicon": "./assets/cityOfDigosLogo.png"
+      "favicon": "./assets/digoslogo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "329515f0-e9bd-4428-aa92-1b6cae70aee5"
+        "projectId": "87a87d04-fd68-4dcd-bc68-d28de5fb4bf4"
       }
     }
   }

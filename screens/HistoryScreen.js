@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image,ScrollView } from 'react-native';
+import { View, Text, StyleSheet,ScrollView } from 'react-native';
+import { Image } from 'expo-image';
 
 export default function HistoryScreen() {
   return (
@@ -9,7 +10,7 @@ export default function HistoryScreen() {
 
       {/* Add an image with description */}
       <Image
-        source={require('../assets/cityOfDigosLogo.png')} // Replace with the correct image path
+        source={require('../assets/digoslogo.png')} // Replace with the correct image path
         style={styles.image}
       />
       <Text style={styles.imageDescription}>

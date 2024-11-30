@@ -1,27 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
+import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { Image } from 'expo-image';
 
 export default function HomeScreen() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    require('../assets/Hotline.webp'),
-    require('../assets/landscape1.webp'),
-    require('../assets/landscape2.webp'),
+    require('../assets/landscape1.jpg'),
+    require('../assets/landscape2.jpg'),
+    require('../assets/landscape3.jpg'),
     require('../assets/landscape4.jpg'),
     require('../assets/landscape5.jpg'),
     require('../assets/landscape6.jpg'),
     require('../assets/landscape7.jpg'),
     require('../assets/landscape8.jpg'),
+    require('../assets/landscape9.jpg'),
+    
   ];
 
   const cards = [
-    { id: '1', title: 'Business', description: 'The Business permit is a key compliance document which entitles and enables business to legally operate', image: require('../assets/business-card.png') },
-    { id: '2', title: 'Environment', description: 'Help Digos achieved its 1 million trees program and turn our hometown into a green city.', image: require('../assets/environment.png') },
-    { id: '3', title: 'Land and Buildings', description: 'Issuance of building permit for any proposed improvement of structures or subdivision projects', image: require('../assets/embassy.png') },
-    { id: '4', title: 'Tourism', description: 'Sightseeing, shopping, dining, entertainment, accommodation, and etc. Enjoy Digos hospitality.', image: require('../assets/travel.png') },
-    { id: '5', title: 'Social Services', description: 'Responsible for the protection of the social welfare and promote social development of Digoseños', image: require('../assets/charity.png') },
-    { id: '6', title: 'Employment', description: 'Career opportunities in government and in private sectors of Digos City', image: require('../assets/job.png') },
+    { id: '1', title: 'Business', description: 'The Business permit is a key compliance document which entitles and enables business to legally operate', image: require('../assets/business.jpg') },
+    { id: '2', title: 'Environment', description: 'Help Digos achieved its 1 million trees program and turn our hometown into a green city.', image: require('../assets/environment.jpg') },
+    { id: '3', title: 'Land and Buildings', description: 'Issuance of building permit for any proposed improvement of structures or subdivision projects', image: require('../assets/embassy.jpg') },
+    { id: '4', title: 'Tourism', description: 'Sightseeing, shopping, dining, entertainment, accommodation, and etc. Enjoy Digos hospitality.', image: require('../assets/travel.jpg') },
+    { id: '5', title: 'Social Services', description: 'Responsible for the protection of the social welfare and promote social development of Digoseños', image: require('../assets/charity.jpg') },
+    { id: '6', title: 'Employment', description: 'Career opportunities in government and in private sectors of Digos City', image: require('../assets/job.jpg') },
   ];
 
   useEffect(() => {

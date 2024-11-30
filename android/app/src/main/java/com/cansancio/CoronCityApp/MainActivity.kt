@@ -1,4 +1,4 @@
-package com.cansancio.CoronCityApp
+package com.digoscityph
 
 import android.os.Build
 import android.os.Bundle

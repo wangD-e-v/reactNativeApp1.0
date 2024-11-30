@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
+import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { Image } from 'expo-image';
 
 export default function CultureScreen() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
 
   const cards = [
-    { id: '1', title: 'Sinulog sa Digos', description: 'every January 15', image: require('../assets/culture_1.webp') },
-    { id: '2', title: 'San Isidrio Labrador', description: 'every May 15', image: require('../assets/culture_2.webp') },
-    { id: '3', title: 'Durung Festival', description: 'month of June', image: require('../assets/culture_3.webp') },
-    { id: '4', title: 'Padigosan Festival', description: 'every July 19', image: require('../assets/culture_4.webp') },
-    { id: '5', title: 'Pulapok Festival', description: 'month of August', image: require('../assets/culture_5.webp') },
-    { id: '6', title: 'Mary Mediatrix', description: 'every August 22', image: require('../assets/culture_6.webp') },
-    { id: '7', title: 'Araw ng Digos & Kadig Garan', description: 'every September 8', image: require('../assets/culture_7.webp') },
-    { id: '8', title: 'Penek Busay', description: 'month of September', image: require('../assets/culture_8.webp') },
-    { id: '9', title: 'GKK/BEC', description: 'Depends on the feast day of the patron saint.', image: require('../assets/culture_9.webp') },
-    { id: '10', title: 'Arus ka Tarusuban Festival (Goma)', description: 'every October 26', image: require('../assets/culture_10.webp') },
-    { id: '11', title: 'Sinubhadan Festival', description: 'every October 30', image: require('../assets/culture_11.webp') },
-    { id: '12', title: 'Palagoy ke Apo (Kapatagan)', description: 'every December 15', image: require('../assets/culture_12.webp') },
+    { id: '1', title: 'Sinulog sa Digos', description: 'every January 15', image: require('../assets/culture_1.jpg') },
+    { id: '2', title: 'San Isidrio Labrador', description: 'every May 15', image: require('../assets/culture_2.jpg') },
+    { id: '3', title: 'Durung Festival', description: 'month of June', image: require('../assets/culture_3.jpg') },
+    { id: '4', title: 'Padigosan Festival', description: 'every July 19', image: require('../assets/culture_4.jpg') },
+    { id: '5', title: 'Pulapok Festival', description: 'month of August', image: require('../assets/culture_5.jpg') },
+    { id: '6', title: 'Mary Mediatrix', description: 'every August 22', image: require('../assets/culture_6.jpg') },
+    { id: '7', title: 'Araw ng Digos & Kadig Garan', description: 'every September 8', image: require('../assets/culture_7.jpg') },
+    { id: '8', title: 'Penek Busay', description: 'month of September', image: require('../assets/culture_8.jpg') },
+    { id: '9', title: 'GKK/BEC', description: 'Depends on the feast day of the patron saint.', image: require('../assets/culture_9.jpg') },
+    { id: '10', title: 'Arus ka Tarusuban Festival (Goma)', description: 'every October 26', image: require('../assets/culture_10.jpg') },
+    { id: '11', title: 'Sinubhadan Festival', description: 'every October 30', image: require('../assets/culture_11.jpg') },
+    { id: '12', title: 'Palagoy ke Apo (Kapatagan)', description: 'every December 15', image: require('../assets/culture_12.jpg') },
   ];
   return (
     <View style={styles.container}>

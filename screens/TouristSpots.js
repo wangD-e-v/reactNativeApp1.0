@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { Image } from 'expo-image';
 
 export default function TouristSpots() {
   return (
@@ -17,7 +18,7 @@ export default function TouristSpots() {
       <View style={styles.spot}>
 
       <Image
-          source={require('../assets/cityOfDigosLogo.png')} // Replace with your image path
+          source={require('../assets/digoslogo.png')} // Replace with your image path
           style={styles.logo}
    />
 
@@ -110,7 +111,7 @@ export default function TouristSpots() {
 
       <View style={styles.spot}>
         <Image
-          source={require('../assets/tibolovillage.jpg')} // Replace with your image path
+          source={require('../assets/tibolo.jpg')} // Replace with your image path
           style={styles.image}
         />
         <Text style={styles.imageTitle}>Tibolo Cultural Village</Text>
