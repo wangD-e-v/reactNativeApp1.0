@@ -5,9 +5,9 @@ export default function HomeScreen() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    require('../assets/Hotline.jpg'),
-    require('../assets/landscape1.jpg'),
-    require('../assets/landscape2.jpg'),
+    require('../assets/Hotline.webp'),
+    require('../assets/landscape1.webp'),
+    require('../assets/landscape2.webp'),
     require('../assets/landscape4.jpg'),
     require('../assets/landscape5.jpg'),
     require('../assets/landscape6.jpg'),
